@@ -13,6 +13,7 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
+    "test:headless": "ng test --single-run --progress false --browser ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "release": "standard-version"
