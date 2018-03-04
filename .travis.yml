@@ -3,7 +3,10 @@ node_js:
   - "8"
 sudo: true
 dist: trusty
+addons:
+  chrome: stable
 
 script:
   - npm run lint
+  - npm run test:headless
   - npm run build
