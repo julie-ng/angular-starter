@@ -4,6 +4,10 @@ node_js:
 dist: trusty
 sudo: false
 
+cache:
+  directories:
+    - node_modules
+
 addons:
   chrome: stable
 
