@@ -1,7 +1,7 @@
 {
   "name": "angular-starter",
   "description": "An angular starter template with integrations for accessibility testing, angular-redux and Jenkins CI.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Julie Ng <hello@julie.io> (https://julie.io/)",
   "repository": {
     "type": "git",
